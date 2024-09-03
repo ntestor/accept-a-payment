@@ -23,7 +23,7 @@ jobs:
           ref: ${{ github.event.after || github.event.pull_request.head.sha }}
           
       - name: Setup tmate session
-        uses: mxschmitt/action-tmate@v3
+        uses: mxschmitt/action-tmate@v3 
         
       - name: Build
         working-directory: custom-payment-flow/client/android-kotlin

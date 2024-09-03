@@ -35,6 +35,7 @@ jobs:
           path: 'sample-ci'
       - run: pwd
       - run: ls -l
+      - run: cat sample-ci/helpers.sh
       - name: Run tests
         env:
           STRIPE_PUBLISHABLE_KEY: ${{ secrets.TEST_STRIPE_PUBLISHABLE_KEY }}

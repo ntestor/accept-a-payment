@@ -9,6 +9,6 @@
   "author": "hibariya",
   "license": "MIT",
   "dependencies": {
-    "@playwright/test": "^1.27.1"
+    "@playwright/test": "^1.44.0"
   }
 }
